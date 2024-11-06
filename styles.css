@@ -1,0 +1,94 @@
+/* Global Styles */
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1.5;
+  color: #555;
+  padding: 4em 1em;
+}
+
+/* Header */
+header {
+  background-color: #263d36;
+  background-image: url('https://raw.githubusercontent.com/Aswini112/UI-Assets/refs/heads/main/background.webp');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  padding: 10vw 2em;
+  text-align: center;
+}
+
+header img {
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+}
+
+header h1 {
+  color: white;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+header a {
+  color: white;
+  border: 1px solid #e81c4f;
+  border-radius: 290486px;
+  font-size: 0.6em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.2em;
+  transition: none 200ms ease-out;
+}
+
+header a:hover {
+  background-color: #e81c4f;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+pre {
+  border-left: 2px solid #69c;
+  background: #f5f7f9;
+  border-bottom: 1px solid #d8dee9;
+  color: #a7adba;
+  -moz-font-smoothing: grayscale;
+  -webkit-font-smoothing: initial;
+}
+.selector {
+  color: #ec5f67;
+}
+.attribute {
+  color: #5fb3b3;
+}
+.number {
+  color: #f99157;
+}
+.unit {
+  color: #fac863;
+}
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+footer p {
+  margin: 0;
+}
